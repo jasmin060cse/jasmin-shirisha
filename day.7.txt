@@ -1,0 +1,201 @@
+#program 1
+class a:
+    def fun1(self):
+        print("fun1")
+    def fun2(self):
+            print("fun2")
+class b(a):
+    def fun3(self):
+        print("fun3")
+    def fun4(Self):
+        print("fun4")
+o=a()
+p=b()
+p.fun1()
+
+
+#program 2
+class student:
+    #class and static variable
+    def __init__(self):
+        #instance variable
+        self.marks1='marks1'
+        self.marks2='marks2'
+        self.marks3='marks3'
+
+#instance method
+#===get method=== get methods are called as accesser
+    def get_m1(self):
+        return self.marks1 
+    
+
+    def get_m2(self):
+        return self.marks2 
+    
+    def get_m3(self):
+        return self.marks3
+     
+    #set methods are mutable value can be changed
+ 
+    def set_m1(self,val):
+        self.marks1=val
+
+
+    def set_m2(self,val):
+        self.marks2=val
+
+
+    def set_m3(self,val):
+        self.marks3=val
+
+
+#program 3
+class a:
+    def fun(sel):
+        print("fun1")
+    def fun2(self):
+        print("fun2")
+class b(a):
+    def __init__(self) ->None:
+        print("1")
+    def __init__(self) ->None:
+        print("2")
+    def fun(self):
+         print("fun3") 
+    def fun(self):
+        print("fun4")
+
+
+#program 4
+class Apple:
+    def fun1(self):
+        print("from apple")
+
+class Orange(Apple):
+    def fun2(self):
+        print("from orange")
+
+class Banana(Orange):
+    def fun3(self):
+        print("from banana")
+
+obj=Banana()
+obj.fun1()
+obj.fun2()
+obj.fun3()
+
+
+#program 5
+class mother:
+    mother_name=''
+    def mom(self):
+        print(self.mother_name)
+
+class father:
+    father_name=''
+    def dad(self):
+      print(self.father_name)
+
+class son:
+    son_name=''
+    def shownames(self):
+        print(self.son_name,self.mother_name,self.father_name)
+        obj=son()
+        obj.Son_names='siril stephen'
+        obj.Mother_name='padma'
+        obj.Father_name='naveen'
+        obj.shownames()
+
+#program 6
+l=[2,3,4,5]
+try:
+    try:
+        a=l.copy()
+        a[0]=l[0]/l[5]
+    except ValueError:
+        print("abc")
+    finally:
+        print("end of fun")
+except IndexError:
+      print("index")   
+
+
+#program 7
+l=[1,2,3,4,5]
+try:
+    fun(l,5)
+except IndexError:
+  print("index error")
+finally:
+  print("end of block")
+def fun(l,ind):
+   try:
+      a=l.copy()
+      a[0]=l[0]/l[ind]
+   except ValueError:
+      print("value error")
+   finally:
+     print("end of function") 
+
+
+
+#program 8
+class VivoMobile:
+    x=99
+o=VivoMobile()
+print(o.x) 
+
+
+class VivoMobile:
+    def __init__(self,modle,ram,rom):#we can also execute this progra without passing any argumen
+        self.modle=modle
+        self.ram=ram
+        self.rom=rom
+    def info(self):
+        print(self.modle,self.ram,self.rom)
+
+mobile1=VivoMobile('x50','8GB','64')
+mobile1.info()
+
+
+mobile2=VivoMobile('v20','16GB','128')
+mobile2.info()
+
+#program
+#without passing any arguments in init function
+class VivoMobile:
+    def __init__(self):#we can also execute this progra without passing any argumen
+        self.modle='modle'
+        self.ram='ram'
+        self.rom='rom'
+    def info(self):
+        print('vivo -',self.modle,'info')
+        print('modle -',self.modle)
+        print('ram -',self.ram)
+        print('rom -',self.rom)
+        print('')
+
+
+mobile1=VivoMobile()
+mobile1.modle='v20'
+mobile1.ram='8GB'
+mobile1.rom='32GB'
+mobile1.info()
+
+
+mobile2=VivoMobile()
+mobile2.modle='x50'
+mobile2.ram='16GB'
+mobile2.rom='64GB'
+mobile2.info()
+
+mobile3=VivoMobile()
+mobile3.modle='y28'
+mobile3.ram='6GB'
+mobile3.rom='128GB'
+mobile3.info()                                
+
+                        
+
+
+

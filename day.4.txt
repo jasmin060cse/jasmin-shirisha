@@ -1,0 +1,90 @@
+#program 1
+a={'a','b','a','c'}
+print(a,type(a))
+
+a={1,5,7,8,3}
+print(a.add(9))
+print(a)
+print(a.pop(),a)
+print(a.discard(2),a)
+#print(a.remove(2),a)
+
+#program 2
+
+fruits=("apple","mango","graphs")
+fruits.index("graphes")
+print(fruits)
+
+#program 3
+s="jasmin"
+s=s+'0'
+print(s)
+
+
+
+#program 4
+s="4pyton proGRAmming"
+print(s.upper())
+print(s.lower())
+print(s.swapcase())
+print(s.title())
+print(s.capitalize())
+
+
+
+#program 5
+
+s="4python programming"
+print(s.index('p'))
+print(s.rindex('p'))
+print(s.find('z'))                     
+print(s.rfind('p'))
+print(s.count('p'))
+
+
+
+#program 6
+s="4python programming"
+print(s.startswith('4p'))
+print(s.startswith('n',6,9))
+print(s.endswith('g'))
+
+#program 7
+
+l=[1,2,3,4]
+print(*1)
+
+#program 8
+x="hello"[2]
+print(x)
+
+#program 9
+l=[2,3,4,5,4]
+print(l.pop(l))
+print(l)
+print(l.remove(4))
+print(l)
+l.clear()
+print(l)
+
+
+
+
+#program 10
+l=[1,2,3,4,5]
+l.append(9)
+l.pop()
+print(l)
+
+#program 11
+l=[8,1,3,0,5,3]
+print(sorted(l))
+print(l)
+print(l.sort())
+print(l)
+
+
+#program 12
+l=['abc','dg','sdsdfg','sdg','z']
+l.sort(key=len)
+print(l)

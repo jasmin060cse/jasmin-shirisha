@@ -1,0 +1,58 @@
+#program 1
+year=int(input())
+if year%400==0 or year%100!=0 and year %4==0 :
+    print("leap year")
+else:
+    print("not leap year")
+
+#program 2
+year=int(input())
+if year%100==0 and year%4==0 :
+       print("leap year")
+elif year%100!=0 and year%4==0 :
+  print("leap year")
+else:
+  print("not leap year")
+
+
+
+#program 3
+year=int(input())
+if(year%4==0):
+ if(year%100==0):
+     if(year%400==0):
+           print("leap year")
+     else:
+            print("not leap year")
+ else:
+  
+     print("leap year") 
+
+
+#program 4
+char=str(input())
+match char:
+    case 'a':
+        print("a is oval")
+    case 'e':
+          print("e is oval")
+    case 'i':
+          print("i is oval")
+    case 'o':
+          print("o is oval") 
+    case 'u':
+          print("u is oval")  
+    case _:
+          print('not oval')
+
+#program 5
+a=int(input())
+if(a>0):
+    print("positive")
+elif(a<0):
+    print("negative")
+else:
+       print("equql to zero")
+
+   
+

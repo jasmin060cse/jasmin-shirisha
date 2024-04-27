@@ -1,0 +1,60 @@
+#program 1
+def add(x:int,y:int)->int:
+    return x+y
+a=int(input())
+b=int(input())
+c=add(a,b)
+print(c)
+
+
+
+#program 2
+from fun import add
+add(3,4)
+
+from m import*
+add(3,4)
+sub(1,6)
+
+#program 3
+def fun(a,b=0):
+    print(a,b)
+fun(b=2,a=5)
+
+
+
+#program 4
+def fun(a):
+    return a**2
+l=[2,3,4,5,6]
+print(list(map(fun,1)))
+
+##program 5
+def fun(a):
+    a[0]=5
+    print(a)
+b=[1,2,3]
+fun(b)
+print(b)
+
+
+#program 6
+def fun(a):
+    return a**2
+l=[2,3,4,5,6]
+print(list(map(fun,1)))
+
+
+#program 7
+from fun import add
+add(3,4)
+
+from m import*
+add(3,4)
+sub(1,6)
+
+import fun as m
+m.add(2,3)
+
+
+

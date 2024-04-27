@@ -1,0 +1,41 @@
+#program 1
+a={2,3,4,5}
+b={4,3}
+print(a<=b)#a is a supper set of b if we give less than it will be false
+print(a<b)#proper subset .hear also if we give less than it will be false
+print(a.issuperset(b))
+
+#program 2
+a= input()
+for i in a :
+ 
+ if i in 'aeiouAEIOU':
+
+  print(i)
+
+#program 3
+s="4python programming"
+print(s.split("n"))
+
+#program 4
+s="4python programming"
+print(s.split("n"))
+print(s.split())
+print(s.partition('n'))
+
+
+#program 5
+s="drgyh   dryfdb gts"
+for i in range(len(s)):
+        if s[i]=='':
+               break
+        print(s[i])
+
+
+#program 6
+d={1:23,'a':24,'abc':90}
+for i in d:
+    print(i,d[i],end=" ")
+    print()
+    for i,j in d.items():
+        print(i,j,end=" ")

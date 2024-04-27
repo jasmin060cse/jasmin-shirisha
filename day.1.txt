@@ -1,0 +1,29 @@
+a=input("enter your name:")
+b=input("enter your friend name:")
+print(a  ,"and",b  ,"bounding  percentage ",random.randint(0,100),'%')
+
+
+"""d={1:23,'a':23}
+d[1]='abc'
+d['python']=1
+print(d,type(d))
+print(d[1])#dictionary collection of elements """
+
+
+
+d={1:23,'a':23}
+print(d.get('a'))
+print(d.keys())
+print(d.values())
+print(d.items())
+
+import random
+a=input("enter your name:")
+b=input("enter your friend name:")
+l=['100%','90%','80%','70%','60%','1%','5%','0%','2%']
+print(a  ,"and"  ,b,"bounding",random.choice(l))
+
+a=9
+b=3
+b=0
+print(id(a),id(b))
