@@ -1,0 +1,8 @@
+hackerank problem link 3 solution
+year=int(input())
+if(year%4==0 and  year%400==0):
+    print(True)
+elif(year%400!=0):
+    print(False)
+else:
+     print("default")

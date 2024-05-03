@@ -1,0 +1,4 @@
+hakerrank problem link 5 solution
+a=['this', 'is', 'a', 'string']
+a="-".join(a)
+print(a)

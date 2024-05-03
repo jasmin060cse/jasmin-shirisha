@@ -1,0 +1,4 @@
+hakerrank prob;em link 2 solution
+n=5
+a=[2,3,6,6,5]
+print(n) 
